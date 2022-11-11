@@ -1,0 +1,14 @@
+div {
+  background-color: darkseagreen;
+  color: white;
+  padding: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: darkgoldenrod;
+  padding: 10px;
+  font-family: monospace;
+}
