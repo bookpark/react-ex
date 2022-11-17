@@ -9,6 +9,9 @@ import ReactstrapCarousel from './ReactstrapCarousel';
 import ReactstrapCollapse from './ReactstrapCollapse';
 import ReactstrapFade from './ReactstrapFade';
 import ReactstrapForm from './ReactstrapForm';
+import ReactstrapInputGroup from './ReactstrapInputGroup';
+import ReactstrapListGroup from './ReactstrapListGroup';
+import ReactstrapModal from './ReactstrapModal';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <ReactstrapCollapse />
       <ReactstrapFade />
       <ReactstrapForm />
+      <ReactstrapInputGroup />
+      <ReactstrapListGroup />
+      <ReactstrapModal />
     </>
   );
 }
