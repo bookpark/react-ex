@@ -12,6 +12,7 @@ import ReactstrapForm from './ReactstrapForm';
 import ReactstrapInputGroup from './ReactstrapInputGroup';
 import ReactstrapListGroup from './ReactstrapListGroup';
 import ReactstrapModal from './ReactstrapModal';
+import ReactstrapNavbar from './ReactstrapNavbar';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <ReactstrapInputGroup />
       <ReactstrapListGroup />
       <ReactstrapModal />
+      <ReactstrapNavbar />
     </>
   );
 }
