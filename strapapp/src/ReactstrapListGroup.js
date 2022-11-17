@@ -10,7 +10,7 @@ class ReactstrapListGroup extends Component {
                 </ListGroupItem>
                 <ListGroupItem disabled tag='a' href='#'>Disabled</ListGroupItem>
                 <ListGroupItem tag='a' href='https://naver.com'>Link</ListGroupItem>
-                <ListGroupItem tag='button' action onClick={e => alert('button')}></ListGroupItem>
+                <ListGroupItem tag='button' action onClick={e => alert('button')}>Button</ListGroupItem>
             </ListGroup>
         )
     }
