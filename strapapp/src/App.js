@@ -15,6 +15,7 @@ import ReactstrapModal from './ReactstrapModal';
 import ReactstrapNavbar from './ReactstrapNavbar';
 import ReactstrapPagination from './ReactstrapPagination';
 import ReactstrapPopover from './ReactstrapPopover';
+import ReactstrapProgress from './ReactstrapProgress';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <ReactstrapNavbar />
       <ReactstrapPagination />
       <ReactstrapPopover />
+      <ReactstrapProgress />
     </>
   );
 }
