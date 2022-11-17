@@ -19,6 +19,7 @@ import ReactstrapProgress from './ReactstrapProgress';
 import ReactstrapSpinner from './ReactstrapSpinner';
 import ReactstrapTable from './ReactstrapTable';
 import ReactstrapTab from './ReactstrapTab';
+import SweetAlert2Basic from './SweetAlert2Basic';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <ReactstrapSpinner />
       <ReactstrapTable />
       <ReactstrapTab />
+      <SweetAlert2Basic />
     </>
   );
 }
