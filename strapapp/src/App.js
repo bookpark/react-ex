@@ -17,6 +17,7 @@ import ReactstrapPagination from './ReactstrapPagination';
 import ReactstrapPopover from './ReactstrapPopover';
 import ReactstrapProgress from './ReactstrapProgress';
 import ReactstrapSpinner from './ReactstrapSpinner';
+import ReactstrapTable from './ReactstrapTable';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <ReactstrapPopover />
       <ReactstrapProgress />
       <ReactstrapSpinner />
+      <ReactstrapTable />
     </>
   );
 }
