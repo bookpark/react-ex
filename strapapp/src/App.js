@@ -6,6 +6,8 @@ import ReactstrapDrop from './ReactstrapDrop';
 import ReactstrapBtnGrp from './ReactstrapBtnGrp';
 import ReactstrapCard from './ReactstrapCard';
 import ReactstrapCarousel from './ReactstrapCarousel';
+import ReactstrapCollapse from './ReactstrapCollapse';
+import ReactstrapFade from './ReactstrapFade';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <ReactstrapDrop />
       <ReactstrapBtnGrp />
       <ReactstrapCard />
-      <ReactstrapCarousel />
+      {/* <ReactstrapCarousel /> */}
+      <ReactstrapCollapse />
+      <ReactstrapFade />
     </div>
   );
 }
