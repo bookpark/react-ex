@@ -8,10 +8,11 @@ import ReactstrapCard from './ReactstrapCard';
 import ReactstrapCarousel from './ReactstrapCarousel';
 import ReactstrapCollapse from './ReactstrapCollapse';
 import ReactstrapFade from './ReactstrapFade';
+import ReactstrapForm from './ReactstrapForm';
 
 function App() {
   return (
-    <div>
+    <>
       <h1>Reactstrap Test</h1>
       <ReactstrapAlert />
       <ReactstrapBadge />
@@ -21,7 +22,8 @@ function App() {
       {/* <ReactstrapCarousel /> */}
       <ReactstrapCollapse />
       <ReactstrapFade />
-    </div>
+      <ReactstrapForm />
+    </>
   );
 }
 
