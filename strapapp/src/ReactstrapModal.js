@@ -16,7 +16,7 @@ class ReactstrapModal extends Component {
             <>
                 <Button color='warning' onClick={this.toggle}>Modal 버튼</Button>
                 <Modal isOpen={this.state.modal} fade={true} toggle={this.toggle}>
-                    <ModalHeader toggle={this.toggle}>Modal Header</ModalHeader>
+                    <ModalHeader>Modal Header</ModalHeader>
                     <ModalBody>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
