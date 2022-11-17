@@ -13,6 +13,7 @@ import ReactstrapInputGroup from './ReactstrapInputGroup';
 import ReactstrapListGroup from './ReactstrapListGroup';
 import ReactstrapModal from './ReactstrapModal';
 import ReactstrapNavbar from './ReactstrapNavbar';
+import ReactstrapPagination from './ReactstrapPagination';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <ReactstrapListGroup />
       <ReactstrapModal />
       <ReactstrapNavbar />
+      <ReactstrapPagination />
     </>
   );
 }
