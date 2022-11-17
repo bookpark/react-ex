@@ -5,6 +5,7 @@ import ReactstrapBadge from './ReactstrapBadge';
 import ReactstrapDrop from './ReactstrapDrop';
 import ReactstrapBtnGrp from './ReactstrapBtnGrp';
 import ReactstrapCard from './ReactstrapCard';
+import ReactstrapCarousel from './ReactstrapCarousel';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ReactstrapDrop />
       <ReactstrapBtnGrp />
       <ReactstrapCard />
+      <ReactstrapCarousel />
     </div>
   );
 }
