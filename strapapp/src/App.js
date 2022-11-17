@@ -20,6 +20,7 @@ import ReactstrapSpinner from './ReactstrapSpinner';
 import ReactstrapTable from './ReactstrapTable';
 import ReactstrapTab from './ReactstrapTab';
 import SweetAlert2Basic from './SweetAlert2Basic';
+import SweetAlert2Position from './SweetAlert2Position';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <ReactstrapTable />
       <ReactstrapTab />
       <SweetAlert2Basic />
+      <SweetAlert2Position />
     </>
   );
 }
