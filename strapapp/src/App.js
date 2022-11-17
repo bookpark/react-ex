@@ -14,6 +14,7 @@ import ReactstrapListGroup from './ReactstrapListGroup';
 import ReactstrapModal from './ReactstrapModal';
 import ReactstrapNavbar from './ReactstrapNavbar';
 import ReactstrapPagination from './ReactstrapPagination';
+import ReactstrapPopover from './ReactstrapPopover';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <ReactstrapModal />
       <ReactstrapNavbar />
       <ReactstrapPagination />
+      <ReactstrapPopover />
     </>
   );
 }
