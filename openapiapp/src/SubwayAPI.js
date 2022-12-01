@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import SubwayAreaChart from "./SubwayAreaChart";
 import SubwayBarChart from "./SubwayBarChart";
+import SubwayComposedChart from "./SubwayComposedChart";
 import SubwayLineChart from "./SubwayLineChart";
 import SubwaySheet from "./SubwaySheet";
 
@@ -11,7 +12,7 @@ function SubwayAPI() {
   const apiRequest = () => {
     axios
       .get(
-        "http://openapi.seoul.go.kr:8088/5458494e63626b623130314d4e734f77/json/CardSubwayStatsNew/1/100/20221101"
+        "http://openapi.seoul.go.kr:8088/5458494e63626b623130314d4e734f77/json/CardSubwayStatsNew/1/50/20221101"
       )
       .then((response) => {
         console.log(response.data.CardSubwayStatsNew.row);
@@ -33,6 +34,8 @@ function SubwayAPI() {
           <SubwayAreaChart row={row} />
           <br />
           <SubwayBarChart row={row} />
+          <br />
+          <SubwayComposedChart row={row} />
         </>
       )}
     </>
