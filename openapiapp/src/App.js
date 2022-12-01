@@ -1,6 +1,6 @@
 import SubwayAPI from "./SubwayAPI";
 import "mvp.css";
-import RechartsLine from "./RechartsLine";
+import "./App.css";
 
 function App() {
   return (
