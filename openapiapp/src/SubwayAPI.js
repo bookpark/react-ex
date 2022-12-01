@@ -1,5 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
+import SubwayAreaChart from "./SubwayAreaChart";
+import SubwayBarChart from "./SubwayBarChart";
 import SubwayLineChart from "./SubwayLineChart";
 import SubwaySheet from "./SubwaySheet";
 
@@ -28,6 +30,9 @@ function SubwayAPI() {
           <br />
           <SubwayLineChart row={row} />
           <br />
+          <SubwayAreaChart row={row} />
+          <br />
+          <SubwayBarChart row={row} />
         </>
       )}
     </>
